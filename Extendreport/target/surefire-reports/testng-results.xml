@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="26599" started-at="2020-05-01T02:05:11 EDT" finished-at="2020-05-01T02:05:38 EDT">
+    <groups>
+    </groups>
+    <test name="Test_firefox" duration-ms="26599" started-at="2020-05-01T02:05:11 EDT" finished-at="2020-05-01T02:05:38 EDT">
+      <class name="regression.Fpk_login_gen">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:regression.Fpk_login_gen@1b92f0a]" name="setUp" is-config="true" duration-ms="114" started-at="2020-05-01T02:05:11 EDT" finished-at="2020-05-01T02:05:11 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="OpenApp(java.lang.String)[pri:0, instance:regression.Fpk_login_gen@1b92f0a]" name="OpenApp" is-config="true" duration-ms="21307" started-at="2020-05-01T02:05:11 EDT" finished-at="2020-05-01T02:05:33 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApp -->
+        <test-method status="PASS" signature="login()[pri:0, instance:regression.Fpk_login_gen@1b92f0a]" name="login" duration-ms="1866" started-at="2020-05-01T02:05:33 EDT" finished-at="2020-05-01T02:05:34 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:regression.Fpk_login_gen@1b92f0a]" name="closeApp" is-config="true" duration-ms="3405" started-at="2020-05-01T02:05:34 EDT" finished-at="2020-05-01T02:05:38 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=Fpk_login_gen.login()[pri:0, instance:regression.Fpk_login_gen@1b92f0a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:regression.Fpk_login_gen@1b92f0a]" name="tearDown" is-config="true" duration-ms="320" started-at="2020-05-01T02:05:38 EDT" finished-at="2020-05-01T02:05:38 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- regression.Fpk_login_gen -->
+    </test> <!-- Test_firefox -->
+  </suite> <!-- Suite -->
+</testng-results>
