@@ -29,7 +29,7 @@ public class Fpk_login_gen extends Generic_test {
 			test.pass("user entered password");
 
 			lp.loginClick();
-			test.pass("user clicked on login");
+			test.pass("user clicks on login");
 
 
 }
